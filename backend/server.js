@@ -37,7 +37,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
     origin: [ "http://localhost:5173",
-    "inventory-and-stock-management-syst.vercel.app"
+    "https://inventory-and-stock-management-syst.vercel.app"
     ],
     credentials: true
   })
